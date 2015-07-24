@@ -2,6 +2,21 @@
 
 Playing with [Semantic UI](http://semantic-ui.com/) :)
 
+### Avatars!
+
+Use [FaceYourManga](http://www.faceyourmanga.it/) for Avatars!
+
+Random Avatar:
+- [UI Faces](http://uifaces.com/api)
+- [Identicon](https://github.com/hgwr/identicon/blob/master/identicon.js)
+- [Avatar Pro](http://www.avatarpro.biz/)
+
+[create-cartoon-avatars](http://www.technorms.com/2850/15-sites-to-create-cartoon-avatars)
+
+[svgavatars](http://svgavatars.com/)
+
+[SVG Avatar generator script](http://codecanyon.net/item/svg-avatars-generator-jquery-integrated-script/6498300)
+
 ### Demo
 
 - buttons

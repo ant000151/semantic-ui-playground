@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Semantic Modals</title>
+  <link rel="stylesheet" type="text/css" href="../../semantic/dist/semantic.min.css">
+  <script src="../../semantic/dist/semantic.min.js"></script>
+</head>
+<body>
+  <h1>Modals</h1>
+  <div class="ui divider"/>
+
+<script type="text/javascript">
+  $('.ui.modal')
+  .modal('show');
+</script>
+<script type="text/javascript">
+  $('.ui.basic.modal')
+  .modal('show');
+</script>
+<div class="ui modal">
+  <div class="header">Header</div>
+  <div class="content">
+    <p></p>
+    <p></p>
+    <p></p>
+  </div>
+</div>
+
+<div class="ui modal">
+  <div class="header">Header</div>
+  <div class="image content">
+      <img class="image">
+      <div class="description">
+      <p></p>
+    </div>
+  </div>
+</div>
+
+<div class="ui modal">
+  <div class="header">Header</div>
+  <div class="content">
+    <p></p>
+  </div>
+  <div class="actions">
+    <div class="ui approve button">Approve</div>
+    <div class="ui button">Neutral</div>
+    <div class="ui cancel button">Cancel</div>
+  </div>
+</div>
+<!--
+Close actions are applied by default to all button actions, in addition an onApprove or onDeny callback will fire if the elements match either selector.
+approve  : '.positive, .approve, .ok',
+deny     : '.negative, .deny, .cancel'
+ -->
+<div class="ui modal">
+  <div class="header">Header</div>
+  <div class="content">
+    <p></p>
+  </div>
+  <div class="actions">
+    <div class="ui approve button">Approve</div>
+    <div class="ui button">Neutral</div>
+    <div class="ui cancel button">Cancel</div>
+  </div>
+</div>
+<script type="text/javascript">
+  $('.fullscreen.modal')
+  .modal('show');
+</script>
+</body>
+</html>

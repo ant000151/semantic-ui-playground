@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Semantic Popups</title>
+  <link rel="stylesheet" type="text/css" href="../../semantic/dist/semantic.min.css">
+  <script src="../../semantic/dist/semantic.min.js"></script>
+</head>
+<body>
+  <h1>Popups</h1>
+  <div class="ui divider"/>
+
+<div class="ui icon button" data-content="The default theme's basic popup removes the pointing arrow." data-variation="basic">
+  <i class="add icon"></i>
+</div>
+
+<i class="circular heart icon link" data-content="Hello. This is an inverted popup" data-variation="inverted"></i>
+
+<div class="ui icon button" data-content="Add users to your feed">
+  <i class="add icon"></i>
+</div>
+<img src="/images/avatar/small/elliot.jpg" data-title="Elliot Fu" data-content="Elliot has been a member since July 2012" class="ui avatar image">
+<img src="/images/avatar/small/stevie.jpg" data-title="Stevie Feliciano" data-content="Stevie has been a member since August 2013" class="ui avatar image">
+<img src="/images/avatar/small/matt.jpg" data-title="Matt" data-content="Matt has been a member since July 2014" class="ui avatar image">
+<div class="ui card" data-html="<div class='header'>User Rating</div><div class='content'><div class='ui star rating'><i class='active icon'></i><i class='active icon'></i><i class='active icon'></i><i class='icon'></i><i class='icon'></i></div></div>">
+  <div class="image">
+    <img src="/images/movies/totoro-horizontal.jpg">
+  </div>
+  <div class="content">
+    <div class="header">My Neighbor Totoro</div>
+    <div class="description">
+      Two sisters move to the country with their father in order to be closer to their hospitalized mother, and discover the surrounding trees are inhabited by magical spirits.
+    </div>
+  </div>
+  <div class="ui two bottom attached buttons">
+    <div class="ui button">
+      <i class="add icon"></i>
+      Queue
+    </div>
+    <div class="ui primary button">
+      <i class="play icon"></i>
+      Watch
+    </div>
+  </div>
+</div>
+
+<i class="circular heart icon link" data-content="Hello. This is a wide pop-up which allows for lots of content with additional space. You can fit a lot of words here and the paragraphs will be pretty wide." data-variation="wide"></i>
+<i class="circular heart icon link" data-content="Hello. This is a very wide pop-up which allows for lots of content with additional space. You can fit a lot of words here and the paragraphs will be pretty wide." data-variation="very wide"></i>
+
+<div class="ui button">Show fluid popup</div>
+<div class="ui fluid popup top left transition hidden">
+  <div class="ui four column divided center aligned grid">
+    <div class="column">1</div>
+    <div class="column">2</div>
+    <div class="column">3</div>
+    <div class="column">4</div>
+  </div>
+</div>
+</body>
+</html>

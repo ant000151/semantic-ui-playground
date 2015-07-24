@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Semantic Sidebars</title>
+  <link rel="stylesheet" type="text/css" href="../../semantic/dist/semantic.min.css">
+  <script src="../../semantic/dist/semantic.min.js"></script>
+</head>
+<body>
+  <h1>Semantic Sidebars</h1>
+  <div class="ui divider"></div>
+
+  <div class="ui sidebar inverted vertical menu">
+    <a class="item">
+      1
+    </a>
+    <a class="item">
+      2
+    </a>
+    <a class="item">
+      3
+    </a>
+  </div>
+  <div class="pusher">
+    <!-- Site content !-->
+  </div>
+
+<!-- Toggle Sidebar visibility :) !-->
+<div class="ui left demo vertical inverted sidebar labeled icon menu">
+  <a class="item">
+    <i class="home icon"></i>
+    Home
+  </a>
+  <a class="item">
+    <i class="block layout icon"></i>
+    Topics
+  </a>
+  <a class="item">
+    <i class="smile icon"></i>
+    Friends
+  </a>
+</div>
+<script type="text/javascript">
+$('.ui.labeled.icon.sidebar')
+  .sidebar('toggle');
+
+</script>
+<!-- A sidebar can appear on different sides of the page -->
+<div class="ui top sidebar"></div>
+<div class="ui right sidebar"></div>
+<div class="ui bottom sidebar"></div>
+<div class="ui left sidebar"></div>
+
+<div class="ui thin sidebar"></div>
+<div class="ui very thin sidebar"></div>
+<div class="ui sidebar"></div>
+<div class="ui wide sidebar"></div>
+<div class="ui very wide sidebar"></div>
+</body>
+</html>

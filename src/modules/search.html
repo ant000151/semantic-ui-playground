@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Semantic Search</title>
+  <link rel="stylesheet" type="text/css" href="../../semantic/dist/semantic.min.css">
+  <script src="../../semantic/dist/semantic.min.js"></script>
+</head>
+<body>
+  <h1>Semantic Search</h1>
+  <div class="ui divider"></div>
+
+<div class="ui search">
+  <input class="prompt" type="text" placeholder="Common passwords...">
+  <div class="results"></div>
+</div>
+<div class="ui search">
+  <div class="ui icon input">
+    <input class="prompt" type="text" placeholder="Common passwords...">
+    <i class="search icon"></i>
+  </div>
+  <div class="results"></div>
+</div>
+<div class="ui category search">
+  <div class="ui icon input">
+    <input class="prompt" type="text" placeholder="Search animals...">
+    <i class="search icon"></i>
+  </div>
+  <div class="results"></div>
+</div>
+<div class="ui search">
+  <div class="ui icon input">
+    <input class="prompt" type="text" placeholder="Search countries...">
+    <i class="search icon"></i>
+  </div>
+  <div class="results"></div>
+</div>
+<script type="text/javascript">
+var content = [
+  { title: 'Andorra' },
+  { title: 'United Arab Emirates' },
+  { title: 'Afghanistan' },
+  { title: 'Antigua' },
+  { title: 'Anguilla' },
+  { title: 'Albania' },
+  { title: 'Armenia' },
+  { title: 'Netherlands Antilles' },
+  { title: 'Angola' },
+  { title: 'Argentina' },
+  { title: 'American Samoa' },
+  { title: 'Austria' },
+  { title: 'Australia' },
+  { title: 'Aruba' },
+  { title: 'Aland Islands' },
+  { title: 'Azerbaijan' },
+  { title: 'Bosnia' },
+  { title: 'Barbados' },
+  { title: 'Bangladesh' },
+  { title: 'Belgium' },
+  { title: 'Burkina Faso' },
+  { title: 'Bulgaria' },
+  { title: 'Bahrain' },
+  { title: 'Burundi' }
+  // etc
+];
+
+  $('.ui.search')
+  .search({
+    source: content
+  });
+</script>
+<div class="ui loading search">
+  <div class="ui icon input">
+    <input class="prompt" type="text" placeholder="Search...">
+    <i class="search icon"></i>
+  </div>
+  <div class="results"></div>
+</div>
+<div class="ui fluid category search">
+  <div class="ui icon input">
+    <input class="prompt" type="text" placeholder="Search animals...">
+    <i class="search icon"></i>
+  </div>
+  <div class="results"></div>
+</div>
+</body>
+</html>
