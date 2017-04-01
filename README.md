@@ -1,5 +1,7 @@
 # Semantic Playground
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kristianmandrup/semantic-ui-playground.svg)](https://greenkeeper.io/)
+
 Playing with [Semantic UI](http://semantic-ui.com/) :)
 
 ### Avatars!
